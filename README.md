@@ -1,5 +1,5 @@
 # Calculator ARCHIVE
-This is an archive of a calculator I made from another reopistory that was on my old website.
+This is an archive of a calculator I made from another repository that was on my old website.
 
 It is very imperfect and I may remake it one day.
 
