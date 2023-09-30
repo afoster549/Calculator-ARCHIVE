@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="./icon.png">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./buttons.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <p id="output">0</p>
+    <div class="buttons">
+        <div class="button-operator" id="percent">
+            <p>%</p>
+        </div>
+        <div class="button-operator" id="clear_entry">
+            <p>CE</p>
+        </div>
+        <div class="button-operator" id="clear">
+            <p>C</p>
+        </div>
+        <div class="button-operator" id="backspace">
+            <p>←</p>
+        </div>
+        <div class="button-operator" id="inverse">
+            <p>⅟x</p>
+        </div>
+        <div class="button-operator" id="square">
+            <p>x²</p>
+        </div>
+        <div class="button-operator" id="square_root">
+            <p>²√x</p>
+        </div>
+        <div class="button-operator" id="divide" onclick="appendVal(true, '/')">
+            <p>÷</p>
+        </div>
+        <div class="button-normal" id="7" onclick="appendVal(false, '7')">
+            <p>7</p>
+        </div>
+        <div class="button-normal" id="8" onclick="appendVal(false, '8')">
+            <p>8</p>
+        </div>
+        <div class="button-normal" id="9" onclick="appendVal(false, '9')">
+            <p>9</p>
+        </div>
+        <div class="button-operator" id="multiply" onclick="appendVal(true, '*')">
+            <p>×</p>
+        </div>
+        <div class="button-normal" id="4" onclick="appendVal(false, '4')">
+            <p>4</p>
+        </div>
+        <div class="button-normal" id="5" onclick="appendVal(false, '5')">
+            <p>5</p>
+        </div>
+        <div class="button-normal" id="6" onclick="appendVal(false, '6')">
+            <p>6</p>
+        </div>
+        <div class="button-operator" id="subtract" onclick="appendVal(true, '-')">
+            <p>-</p>
+        </div>
+        <div class="button-normal" id="1" onclick="appendVal(false, '1')">
+            <p>1</p>
+        </div>
+        <div class="button-normal" id="2" onclick="appendVal(false, '2')">
+            <p>2</p>
+        </div>
+        <div class="button-normal" id="3" onclick="appendVal(false, '3')">
+            <p>3</p>
+        </div>
+        <div class="button-operator" id="plus" onclick="appendVal(true, '+')">
+            <p>+</p>
+        </div>
+        <div class="button-normal" id="convert">
+            <p>±</p>
+        </div>
+        <div class="button-normal" id="0" onclick="appendVal(false, '0')">
+            <p>0</p>
+        </div>
+        <div class="button-normal" id="decimal">
+            <p>.</p>
+        </div>
+        <div class="button-equals" id="equals">
+            <p>=</p>
+        </div>
+    </div>
+    <script defer src="./logic.js"></script>
+</body>
+</html>
