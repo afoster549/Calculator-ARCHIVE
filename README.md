@@ -3,4 +3,4 @@ This is an archive of a calculator I made from another reopistory that was on my
 
 It is very imperfect and I may remake it one day.
 
-You can view the web version in the [main](https://github.com/afoster549/Calculator-ARCHIVE/tree/main) branch, and the electron one in the [electron](https://github.com/afoster549/Calculator-ARCHIVE/tree/main) branch.
+You can view the web version in the [main](https://github.com/afoster549/Calculator-ARCHIVE/tree/main) branch, and the electron one in the [electron](https://github.com/afoster549/Calculator-ARCHIVE/tree/electron) branch.
